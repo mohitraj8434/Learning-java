@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class CharacterPattern {
+  public static void main(String[] agrs) {
+    Scanner sc = new Scanner(System.in);
+    char ch = 'A';
+    int n = 5;
+    for(int i=1; i<=n; i++){
+      for(int j=1; j<=i; j++){
+        System.out.print(ch);
+        ch++;
+      }
+      System.out.println();
+    }
+  }
+}
