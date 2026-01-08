@@ -11,6 +11,8 @@ int count = 1;
   count++;
  }
 
+        // the sum of n natural number 
+
  System.out.println("Enter a  number: ");
 
 int num = sc.nextInt();
