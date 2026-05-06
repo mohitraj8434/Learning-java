@@ -72,9 +72,9 @@ public class SpiralMatrix {
 
     public static boolean stairsearch(int matrix[][], int key){
         int row = 0;
-        int col = matrix[0].length 1;
+        int col = matrix[0].length - 1;
 
-        while(raw < matrix.length && col >= 0){
+        while(row < matrix.length && col >= 0){
             if(matrix[row][col] == key){
                 System.out.println("key found at ( " + row + "," + col + " ) ");
                 return true;
